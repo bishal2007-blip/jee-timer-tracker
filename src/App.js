@@ -1,4 +1,7 @@
+
 import { useState, useEffect } from "react";
+import { Analytics } from "@vercel/analytics/react"
+
 
 export default function QuestionTimerApp() {
   const [step, setStep] = useState("start");
